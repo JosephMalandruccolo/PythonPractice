@@ -17,9 +17,9 @@ print 'Please enter two integers\nAddition, subtraction, multiplication, and div
 bValidInput = False
 while bValidInput == False:
 	try:
-		numStr = raw_input('Please enter the first integer')
+		numStr = raw_input('Please enter the first integer\n')
 		nVar1 = int(numStr)
-		numStr = raw_input('Please enter the second integer')
+		numStr = raw_input('Please enter the second integer\n')
 		nVar2 = int(numStr)
 		bValidInput = True
 	except:
